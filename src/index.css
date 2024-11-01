@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    /* background: linear-gradient(to right,#000428 ,#004e92); */
+    /* background-color: white; */
+    color: #f8fafc;
+    background-color: #020617;
+    background-attachment: fixed;
+}
+
+/* .menu-page{
+    background-image: url("src/assets/Menu_bg.jpg");
+} */
+ .menu-bg{
+    background-attachment: fixed;
+ }
+
+#Subscribe{
+    background-image: url("src/assets/bg-subscribe-v.0.0.jpg");
+    background-attachment: fixed;
+}
+#list{
+    background-attachment: fixed;
+}
+.custom-dots li div {
+    @apply bg-slate-900; /* Default (inactive) dot color */
+  }
+  
+  .custom-dots li.slick-active div {
+    @apply bg-red-600; /* Active dot color */
+  }
+  
+  .custom-dots li div {
+    @apply transition-colors duration-300; /* Smooth color transition */
+  }
